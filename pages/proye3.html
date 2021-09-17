@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="../imagenes/h.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/style-proyectos.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>Dinoparquestrella</title>
+  </head>
+  <body>
+    <!----------------------------------------Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img
+            src="../imagenes/logo.png"
+            class="img-fluid"
+            alt=""
+            width="200"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/cv.html">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/enlaces.html">Enlaces</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+            <li id="pap" class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Proyectos
+              </a>
+
+              <ul
+                id="dp"
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+              >
+                <li>
+                  <a class="dropdown-item" href="proye1.html"
+                    ><b>Hospital Interfaz </b></a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="proye2.html"><b>UP-VID</b></a>
+                </li>
+                <li>
+                  <a
+                    aria-current="page"
+                    class="dropdown-item"
+                    href="proye3.html"
+                    ><b>Dinoparquestrella</b></a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!----------------------------------------FINNavbar-->
+    <div id="fondo" class="container">
+      <div id="arriba" class="row mt-4 p-4">
+        <!-------------------------InicioRow1-->
+        <div class="col-12 col-lg-7">
+          <!------------------inicio-col1-->
+          <h1>Dinoparquestrella</h1>
+          <p>
+            En África, un grupo de asociados multimillonarios desean invertir en
+            un parque para el estudio y observación de experimentos genéticos de
+            dinosaurios y para eso necesitan calcular cuánto se tiene que
+            invertir dependiendo del tipo de alimentación que lleve cada uno
+            semanalmente y el tamaño del hábitat que requiera.
+          </p>
+
+          <!------------------fin-----col1-->
+        </div>
+        <div class="col-12 col-md-12 col-lg-5">
+          <!------------------inicio-col2-->
+          <img
+            src="../imagenes/dino.jpg"
+            class="img-fluid"
+            alt="Proyecto en python"
+          />
+          <!------------------fin-----col2-->
+        </div>
+        <!-------------------------finRow1-->
+      </div>
+      <div id="centro" class="row p-4">
+        <!-------------------------InicioRow2-->
+        <div class="col-12 col-md-6">
+          <!------------------inicio-col1-->
+          <h2>Proceso</h2>
+          <p>
+            Para resolver este problema se utilizó c# con un enfoque de
+            programación estructurada básica, este al ser el primer proyecto de
+            programación no tuvo tanta complejidad en la parte de los algoritmos
+            sino más bien en la parte de desarrollar la idea, ya que el
+            compañero que se encargaba de dar las ideas no era el mejor
+            expresándolas lo que llegaba a confundir a los encargados de
+            programar, el equipo encargado de programar aprendió mucho de esto
+            ya que nos hizo ver como seria resolver este tipo de problemas ya en
+            el mundo laboral con gente no relacionada a la programación, este
+            problema se resolvió con comunicación y aclarando las dudas conforme
+            iban surgiendo.
+          </p>
+          <!------------------fin-----col1-->
+        </div>
+        <div class="col-12 col-md-6">
+          <!------------------inicio-col2-->
+          <h2>Un poco sobre lo que hace el código</h2>
+          <p>
+            El programa una vez que recibió los datos de los dinosaurios que
+            estarán en el parque, calculará cual es la inversión inicial
+            necesaria para comenzar con el proyecto, calculará los costos
+            mensuales, la inversión habiendo pasado los años que el usuario
+            quiera proyectar, las ganancias, el costo mínimo del boleto para
+            obtener ganancias y permite buscar los dinosaurios dentro del parque
+            por nombre.<br />En la imagen 1 se observa el llenado de datos
+            inicial con sus correspondientes validaciones, mientras que en la
+            imagen 2 y la imagen 3 se observa el funcionamiento de las distintas
+            opciones del menú.
+          </p>
+          <h3>
+            <a
+              href="../descargas/Program.cs"
+              target="_blank"
+              download="dinosaurios.cs"
+              >Copia el código</a
+            >
+          </h3>
+          <!------------------fin-----col2-->
+        </div>
+        <!-------------------------finRow2-->
+      </div>
+      <div id="abajo" class="row justify-content-center py-4">
+        <!-------------------------InicioRow3-->
+        <div class="col-12 col-md-6 col-xl-4 p-3">
+          <!------------------inicio-col1-->
+          <figure>
+            <img
+              src="../imagenes/dw11.png"
+              class="img-fluid"
+              alt="Proyecto en python"
+            />
+            <figcaption>Imagen 1</figcaption>
+          </figure>
+          <!------------------fin-----col1-->
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 p-3">
+          <!------------------inicio-col2-->
+          <figure>
+            <img
+              src="../imagenes/dw22.png"
+              class="img-fluid"
+              alt="Proyecto en python"
+            />
+            <figcaption>Imagen 2</figcaption>
+          </figure>
+          <!------------------fin-----col2-->
+        </div>
+        <div class="col-12 col-md-6 col-xl-4 p-3">
+          <!------------------inicio-col3-->
+          <figure>
+            <img
+              src="../imagenes/dw44.png"
+              class="img-fluid"
+              alt="Proyecto en python"
+            />
+            <figcaption>Imagen 3</figcaption>
+          </figure>
+          <!------------------fin-----col3-->
+        </div>
+        <!-------------------------finRow3-->
+      </div>
+      <!----Fin-Container-->
+    </div>
+    <!-- Footer ----------------------------------------------------------------->
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <div id="fot">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Conéctate conmigo en las redes sociales:</span>
+          </div>
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            <a
+              href="https://www.linkedin.com/in/santiago-valera-barreiros-999345214"
+              target="_blank"
+              class="me-4 text-reset"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/Santomen"
+              target="_blank"
+              class="me-4 text-reset"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Mis redes
+                </h6>
+                <p>
+                  <a
+                    href="https://www.linkedin.com/in/santiago-valera-barreiros-999345214"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i> Linkedin</a
+                  >
+                </p>
+                <p>
+                  <a href="https://github.com/Santomen" target="_blank">
+                    <i class="fab fa-github"></i> Github</a
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contacto
+                </h6>
+                <p>
+                  <i class="fas fa-home me-3"></i> CDMX, Álvaro Obregón, México
+                </p>
+                <p>
+                  <a href="mailto:0228654@up.edu.mx"
+                    ><i class="fas fa-envelope me-3"></i> 0228654@up.edu.mx</a
+                  >
+                </p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.1);"
+        >
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="../index.html">Santiago.com</a>
+        </div>
+        <!-- Copyright -->
+      </div>
+    </footer>
+    <!-- -----------------------------------------------------------------------End-----Footer -->
+    <!---------------------------Iconos-->
+    <script
+      src="https://kit.fontawesome.com/18c4a3836b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+#banner {
+  background-color: #546c95ff;
+}
+#banneri > #fotobanner > #fotyo {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 50% !important;
+}
+#bannerd > div > figure > img {
+  width: 500px;
+}
+#bannerd > div > figure > #lp {
+  color: #faf8ea;
+  text-align: center;
+}
+#p1,
+#p2,
+#p3 {
+  color: black;
+  font-weight: bold;
+}
+#p2 {
+  font-weight: bold;
+}
+#sp1,
+#sp2,
+#sp3 {
+  background-color: black;
+}
+#p1 > a,
+#p2 > a,
+#p3 > a {
+  text-decoration: none;
+  color: #faf8ea;
+  background-color: rgba(84, 108, 149, 0.7);
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+}
+#pro {
+  margin: 40px;
+  text-align: center;
+}
+body {
+  background-color: #faf8ea;
+}

@@ -1,0 +1,92 @@
+#arriba {
+  background-color: #546c95ff;
+  color: #faf8ea;
+  padding-left: 5%;
+}
+#arribad {
+  background-color: #546c95ff;
+  color: #faf8ea;
+}
+
+#ai {
+  background-color: #faf8ea;
+  color: black;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+}
+
+#ad {
+  background-color: #f78f6d;
+}
+#foto {
+  border-radius: 50%;
+  width: 200px;
+}
+
+@media screen and (min-width: 751px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      #faf8ea,
+      #faf8ea 33.8%,
+      #546c95ff 33.8%,
+      #546c95ff 100%
+    );
+  }
+}
+@media screen and (min-width: 900px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      #faf8ea,
+      #faf8ea 34%,
+      #546c95ff 34%,
+      #546c95ff 100%
+    );
+  }
+}
+@media screen and (min-width: 965px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      #faf8ea,
+      #faf8ea 34.5%,
+      #546c95ff 34.5%,
+      #546c95ff 100%
+    );
+  }
+}
+@media screen and (min-width: 982px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      #faf8ea,
+      #faf8ea 32.9%,
+      #546c95ff 32.9%,
+      #546c95ff 100%
+    );
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      #faf8ea,
+      #faf8ea 29.3%,
+      #546c95ff 29.3%,
+      #546c95ff 100%
+    );
+  }
+}
+@media screen and (min-width: 1300px) {
+  body {
+    background: linear-gradient(
+      to bottom,
+      #faf8ea,
+      #faf8ea 29.7%,
+      #546c95ff 29.7%,
+      #546c95ff 100%
+    );
+  }
+}

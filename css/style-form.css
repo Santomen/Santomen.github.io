@@ -1,0 +1,21 @@
+form {
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+button[type="submit"] {
+  background-color: #546c95ff;
+}
+@media screen and (min-width: 100px) {
+  iframe {
+    margin-top: 5%;
+    height: 600px;
+  }
+}
+@media screen and (min-width: 960px) {
+  iframe {
+    margin-top: 10%;
+    height: 800px;
+  }
+}
