@@ -1,2 +1,2 @@
 # Santomen.github.io
-Portafolio profesional de ingeniero en inteligencia de datos y ciberseguridad
+Portafolio profesional de ingeniero en tecnologías de la información y sistemas inteligentes
