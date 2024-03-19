@@ -1,90 +1,46 @@
-nav li a {
-  font-family: "Raleway", sans-serif;
-  color: #faf8ea !important;
-}
-nav {
+#banner {
   background-color: #546c95ff;
 }
-* {
-  font-family: "Raleway", sans-serif;
+#banneri > #fotobanner > #fotyo {
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 30% !important;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", sans-serif;
+#bannerd > div > figure > img {
+  width: 500px;
 }
-a {
+#bannerd > div > figure > #lp {
+  color: #faf8ea;
+  text-align: center;
+}
+#p1,
+#p2,
+#p3 {
+  color: black;
+  font-weight: bold;
+}
+#p2 {
+  font-weight: bold;
+}
+#sp1,
+#sp2,
+#sp3 {
+  background-color: black;
+}
+#p1 > a,
+#p2 > a,
+#p3 > a {
   text-decoration: none;
-}
-footer #fot {
-  background-color: #f78f6d !important;
-  color: black;
-}
-footer #fot a {
-  color: black;
-}
-footer #fot h6 {
   color: #faf8ea;
-}
-#pap #dp > li > a {
-  color: #546c95ff !important;
-}
-span {
-  color: #faf8ea;
-  background-color: #546c95ff;
-  padding: 5px;
+  background-color: rgba(84, 108, 149, 0.7);
   display: block;
-  margin: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+#pro {
+  margin: 40px;
   text-align: center;
 }
 body {
   background-color: #faf8ea;
 }
-#container {
-  max-width: 600px;
-  margin: auto;
-  padding-top: 10px;
-}
-
-#container a:hover {
-  background-color: #f7906dad;
-}
-#enlacesfoto img {
-  margin-top: 30px;
-  max-width: 100px;
-  margin: auto;
-  border-radius: 30%;
-  display: block;
-}
-#container > a {
-  color: #faf8ea;
-  text-decoration: none;
-  background-color: rgba(84, 108, 149, 0.7);
-  padding: 20px;
-  display: block;
-  margin: 20px;
-  border-radius: 30px;
-  text-align: center;
-}
-#ti3 h3 {
-  color: #546c95ff;
-  text-align: center;
-}
-
-#enlacesfoto figcaption {
-  text-align: center;
-  color: #546c95ff;
-}
-#enlacesfoto img {
-  margin-top: 2%;
-}
-/* En tu archivo estilo.css */
-p {
-  text-align: justify;
-}
-
