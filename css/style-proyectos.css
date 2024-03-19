@@ -14,3 +14,10 @@ body {
 figcaption {
   color: #faf8ea;
 }
+
+p {
+  text-align: justify;
+}
+div {
+  text-align: justify;
+}
