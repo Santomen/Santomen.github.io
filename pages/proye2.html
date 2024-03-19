@@ -17,14 +17,14 @@
     />
     <link rel="stylesheet" type="text/css" href="../css/style-proyectos.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <title>UP-VID</title>
+    <title>Fly-UP</title>
   </head>
   <body>
     <!----------------------------------------Navbar-->
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
-          <img src="../imagenes/logo.png" class="img-fluid" alt="" width="200" />
+          <img src="../imagenes/logo.png" class="img-fluid" alt="" width="76" />
         </a>
         <button
           class="navbar-toggler"
@@ -42,15 +42,11 @@
             <li class="nav-item">
               <a class="nav-link" href="../index.html">Inicio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/cv.html">CV</a>
-            </li>
+            
             <li class="nav-item">
               <a class="nav-link" href="../pages/enlaces.html">Enlaces</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-            </li>
+            
             <li id="pap" class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -70,7 +66,7 @@
               >
                 <li>
                   <a class="dropdown-item" href="proye1.html"
-                    ><b>Hospital Interfaz </b></a
+                    ><b>Calculadora ADSOA </b></a
                   >
                 </li>
                 <li>
@@ -78,12 +74,12 @@
                     aria-current="page"
                     class="dropdown-item"
                     href="proye2.html"
-                    ><b>UP-VID</b></a
+                    ><b>Fly-UP</b></a
                   >
                 </li>
                 <li>
                   <a class="dropdown-item" href="proye3.html"
-                    ><b>Dinoparquestrella</b></a
+                    ><b>WhatsUP</b></a
                   >
                 </li>
               </ul>
@@ -98,21 +94,9 @@
         <!-------------------------InicioRow1-->
         <div class="col-12 col-md-12 col-lg-7">
           <!------------------inicio-col1-->
-          <h1>UP-VID</h1>
+          <h1>Fly-UP chatbot</h1>
           <p>
-            Es un software diseñado para la Universidad Panamericana cuando se
-            preveía un posible regreso a clases presenciales, este software ayuda
-            a organizar la entrada de los alumnos a la universidad, teniendo en
-            cuenta la cantidad permitida de alumnos en cada salón, permitiendo
-            que los alumnos sean capaces de reservar clases una vez por
-            semana por materia igualmente dándole la oportunidad de cancelar las
-            reservaciones, además si algún alumno se reporta enfermo de
-            inmediato se le revocaría el permiso para asistir a clases
-            presenciales hasta que su salud se recupere, así mismo da aviso a
-            los alumnos con los que compartió clase de que asistieron a clase
-            con un alumno que reportó tener la enfermedad COVID-19, este
-            software no tiene una base de datos para registrar la información, tiene
-            en cambio archivos csv donde se almacena el conjuto de datos.
+            En la actualidad, los chatbots se están volviendo cada vez más comunes, ya que la tecnología ha avanzado hasta el punto de que imitar ciertos flujos de conversación en diversos contextos ya no representa un desafío significativo. En este proyecto, hemos desarrollado un chatbot diseñado específicamente para una aerolínea. Este chatbot está capacitado para responder preguntas básicas relacionadas con cinco temas principales: consulta de destinos, tarifas, tipos de boletos, políticas de cancelación y métodos de pago.
           </p>
 
           <!------------------fin-----col1-->
@@ -120,7 +104,7 @@
         <div class="col-12 col-md-12 col-lg-5">
           <!------------------inicio-col2-->
           <img
-            src="../imagenes/upvid3.png"
+            src="../imagenes/Flujo conversacional.png"
             class="img-fluid"
             alt="Proyecto en C++"
           />
@@ -133,9 +117,14 @@
         <div class="col-12 col-md-6">
           <!------------------inicio-col1-->
           <p>
-            <h2>Proceso</h2>
-            Para realizar este proyecto se utilizó c++, hubo ciertos problemas al intentar guardar la información en los archivos y recuperarla ya que no se utilizó una base de datos, además de que se usaron 2 archivos csv y estos de alguna manera debían de estar conectados, por lo que se utilizó un algoritmo diseñado por el equipo para recuperar, guardar y hacer las modificaciones correspondientes a la información conforme se van modificando los datos.
-          </p>
+            <h2>Tecnologías usadas</h2>
+            Para el desarrollo de este proyecto, se implementaron dos tecnologías fundamentales: el Procesamiento de Lenguaje Natural (PLN) y el Aprendizaje Profundo.
+
+            En lo que respecta al PLN, se aplicó tanto en la lógica del chatbot como en la construcción de la red neuronal. Dentro de la lógica del chatbot, se emplearon entidades para identificar la categoría del enunciado (utterance) y se utilizaron gramáticas para proporcionar una interacción más natural y humana. Para el procesamiento lingüístico en la red, se utilizó SpaCy con un modelo mediano en español, que permitió la tokenización y lematización de las palabras. Adicionalmente, se empleó NLTK para filtrar palabras vacías (stop words), limpiar los datos, construir el vocabulario y convertir las palabras en representaciones numéricas.
+            
+            Se diseñó una clase especial para gestionar la red neuronal, la cual almacena información crucial para la ejecución del modelo. Por ejemplo, incluye un atributo "tokenizador" que mantiene el vocabulario y la enumeración utilizados durante el entrenamiento, lo cual es esencial para procesar correctamente nuevas entradas de texto en futuras aplicaciones del modelo.
+            
+           
           <h3>Lógica del código</h3><p>Estructura “credencial” para guardar la información del alumno (nombre, ID, edad, campus, carrera).<br>
 
             Clase “estudiante” para guardar información del alumno dentro de la estructura y extra (contraseña, semestre, día de asistencia, info de COVID).<br>
@@ -150,7 +139,7 @@
           <p>
             Dentro del programa hay 2 tipos de usuarios, los alumnos y el administrador, el primero solo tiene permisos para hacer reservaciones siempre que haya espacio disponible en el salón y en el día escogido , puede realizar cancelaciones de clase siempre y cuando tenga al menos una clase reservada, puede actualizar constantemente su estado de salud, puede imprimir sus datos, mientras que el segundo usuario puede agregar salones al software así como modificar las propiedades de este como: si está disponible para ser ocupado en clases presenciales, modificar la capacidad permitida de alumnos del salón en cuestión.<br>La imagen 1, imagen 2 y la imagen 3 son representeaciones de como hubiese sido el programa si se le hubiera colocado una interfaz gráfica.
           </p>
-          <h3><a href="../descargas/Archivos programa-20210917T161019Z-001.zip" download="programas.zip">Descarga el código</a></h3>
+          <h3><a href="https://drive.google.com/file/d/1XMnRgrnAlFvYA5myfR3c9M_7nHUt1gTb/view?usp=sharing" >Video</a></h3>
           <!------------------fin-----col2-->
         </div>
         <!-------------------------finRow2-->
@@ -161,7 +150,7 @@
           <!------------------inicio-col1-->
           <figure>
             <img
-              src="../imagenes/up11.png"
+              src="../imagenes/Back.png"
               class="img-fluid"
               alt="Proyecto en python"
             />
@@ -173,7 +162,7 @@
           <!------------------inicio-col2-->
           <figure>
             <img
-              src="../imagenes/up22.png"
+              src="../imagenes/front.png"
               class="img-fluid"
               alt="Proyecto en python"
             />
@@ -181,18 +170,7 @@
           </figure>
           <!------------------fin-----col2-->
         </div>
-        <div class="col-12 col-md-6 col-xl-4 p-3">
-          <!------------------inicio-col3-->
-          <figure>
-            <img
-              src="../imagenes/up33.png"
-              class="img-fluid"
-              alt="Proyecto en python"
-            />
-            <figcaption>Imagen 3</figcaption>
-          </figure>
-          <!------------------fin-----col3-->
-        </div>
+       
         <!-------------------------finRow3-->
       </div>
       <!----Fin-Container-->
@@ -212,7 +190,7 @@
 
           <!-- Right -->
           <div>
-            <a href="https://www.linkedin.com/in/santiago-valera-barreiros-999345214"
+            <a href=https://www.linkedin.com/in/santiago-valera-barreiros-504625225
             target="_blank" class="me-4 text-reset">
               <i class="fab fa-linkedin"></i>
             </a>
@@ -245,7 +223,7 @@
                 </h6>
                 <p>
                   <a
-                  href="https://www.linkedin.com/in/santiago-valera-barreiros-999345214"
+                  href=https://www.linkedin.com/in/santiago-valera-barreiros-504625225
                   target="_blank"
                   > <i class="fab fa-linkedin"></i>
                   Linkedin</a
